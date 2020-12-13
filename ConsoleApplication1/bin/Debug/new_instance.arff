@@ -1,0 +1,9 @@
+@RELATION new_instance
+@attribute sepallength REAL
+@attribute sepalwidth REAL
+@attribute petallength REAL
+@attribute petalwidth REAL
+@attribute class {Iris-setosa,Iris-versicolor,Iris-virginica}
+@data
+
+1,2,3,4,?

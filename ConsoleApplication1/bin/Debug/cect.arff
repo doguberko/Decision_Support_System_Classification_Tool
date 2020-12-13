@@ -1,0 +1,63 @@
+% 1. Title: CECT
+%  
+% 2. Number of Instances: 36
+% 
+% 3. Number of Attributes: 2 nominals, 1 numeric attributes and the class
+% 
+% 4. Attribute Information:
+%    1. donem tipi
+%    2. ay
+%    3. yas
+%    5. class: 
+%       -- A
+%       -- B
+%       -- C
+%
+
+@RELATION DEUCENGMLCT
+
+@ATTRIBUTE donem tipi	REAL
+@ATTRIBUTE ay 	REAL
+@ATTRIBUTE yas 	REAL
+@ATTRIBUTE class 	{A,B,C}
+
+@DATA
+Gunluk,Ocak,10,B
+Gunluk,Ocak,10,C
+Gunluk,Ocak,10,A
+Gunluk,Subat,10,B
+Gunluk,Subat,10,A
+Gunluk,Subat,10,C
+Gunluk,Mart,20,A
+Gunluk,Mart,20,A
+Gunluk,Mart,20,A
+Gunluk,Nisan,20,A
+Gunluk,Nisan,20,C
+Gunluk,Nisan,20,B
+Aylik,Mayis,30,A
+Aylik,Mayis,30,B
+Aylik,Mayis,30,C
+Aylik,Haziran,30,C
+Aylik,Haziran,30,C
+Aylik,Haziran,30,C
+Aylik,Temmuz,40,C
+Aylik,Temmuz,40,A
+Aylik,Temmuz,40,B
+Aylik,Agustos,40,B
+Aylik,Agustos,40,B
+Aylik,Agustos,40,B
+Yillik,Eylul,50,C
+Yillik,Eylul,50,B
+Yillik,Eylul,50,A
+Yillik,Ekim,50,B
+Yillik,Ekim,50,B
+Yillik,Ekim,50,B
+Yillik,Kasim,60,C
+Yillik,Kasim,60,A
+Yillik,Kasim,60,C
+Yillik,Aralik,60,C
+Yillik,Aralik,60,B
+Yillik,Aralik,60,A
+%
+%
+%
